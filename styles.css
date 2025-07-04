@@ -54,17 +54,17 @@
   box-shadow: 0 8px 25px rgba(152, 155, 158, 0.4); /* Increase shadow on hover */
 }
 
-.project-image {
+.project-images {
   border: 50px solid rgb(63, 125, 22); /* Set the border width and color */
   border-radius: 10px; /* Optional: adds rounded corners */
 }
 
-.project-image-1 {
+.project-images-1 {
   border: 50px solid rgb(54, 94, 224); /* Set the border width and color */
   border-radius: 10px; /* Optional: adds rounded corners */
 }
 
-.project-image-2 {
+.project-images-2 {
   border: 50px solid rgb(203, 44, 44); /* Set the border width and color */
   border-radius: 10px; /* Optional: adds rounded corners */
 }
@@ -172,10 +172,10 @@
   margin: 20px 0; /* Add some margin */
 }
 body {
-  background-image: url('image/bckgd.jpg'); /* Replace with your image path */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-images: url('images/bckgd.jpg'); /* Replace with your images path */
+  background-repeat: no-repeat; /* Prevent the images from repeating */
   background-size: cover; /* Cover the entire page */
-  background-position: center; /* Center the image */
+  background-position: center; /* Center the images */
   margin: 0; /* Remove default margin */
   height: 350vh; /* Full height of the viewport */
 }
@@ -269,7 +269,7 @@ html {
 }
 
 .img-fluid {
-  max-width: 100%; /* Make the image responsive */
+  max-width: 100%; /* Make the images responsive */
   height: auto; /* Maintain aspect ratio */
 }
 
